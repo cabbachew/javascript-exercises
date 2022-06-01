@@ -51,7 +51,7 @@ const factorial = function(number) {
   return result;
 };
 
-// Alternate solution
+// Alternate solution for factorial
 // const factorial = function(n) {
 //   if (n === 0) return 1;
 //   let product = 1;
@@ -60,6 +60,14 @@ const factorial = function(number) {
 //   }
 //   return product;
 // }
+
+// Alternate solution for factorial using recursion
+const recursiveFactorial = function(n) {
+  if (n === 0) {
+    return 1;
+  }
+  return n * recursiveFactorial(n-1);
+}
 
 // Do not edit below this line
 module.exports = {
