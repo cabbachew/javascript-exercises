@@ -19,7 +19,7 @@ const sum = function(array) {
 //   return array.reduce((total, current) => total + current, 0);
 // };
 
-// const multiply = function(array) {
+const multiply = function(array) {
   let product = 1;
   array.forEach(number => {
     product *= number;
